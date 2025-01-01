@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Luxxs Streamings | Films</title>
+  <style>
+    /* Réinitialisation des styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Styles spécifiques au site */
+    body {
+      background-color: rgb(24, 24, 24);
+      color: rgb(255, 255, 255);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+    }
+
+    .logo img {
+      width: 200px;
+    }
+
+    .search-bar {
+      position: relative;
+      margin-left: 20px;
+    }
+
+    .search-bar input[type="text"] {
+      width: 200px;
+      padding: 5px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+    nav {
+      background-color: rgb(24, 24, 24);
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+    .movie-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+      padding: 20px;
+      background-color: rgb(34, 34, 34);
+      border-radius: 8px;
+    }
+
+    .movie-image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .movie-info {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .movie-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .movie-year {
+      font-size: 18px;
+      color: #888;
+    }
+
+    .movie-categories {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+    .movie-description {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    .film-item {
+  text-align: center;
+}
+#filmList {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.film-item {
+  text-align: center;
+  margin: 10px;
+}
+
+.film-item img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.film-categories {
+  font-size: 25 px;
+}
+
+.film-categories {
+  color: #888;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/DiversImg/LuxxsStreamingsLogo.png" alt="">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="popular.html">Popular</a></li>
+        <li><a href="#">Films</a></li>
+        <li><a href="#">Séries</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Rechercher par nom ou catégorie">
+    </div>
+  </header>
+  <h1>Most Viewed on Luxxs Streamings</h1>
+  <ul id="filmList">
+    <li>
+      <div class="film-item">
+        <img src="img/FilmsImg/spiderman_no_way_home_poster.jpg" alt="Image Film 1">
+        <div class="film-info">
+          <a href="SpiderFilm2021.html" data-categories="Action, Spiderman">
+            <div class="film-title">Spiderman : No Way Home</div>
+            <div class="film-categories">(Action, Spiderman)</div>
+          </a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="film-item">
+        <img src="img/FilmsImg/spiderman_no_way_home_poster.jpg" alt="Image Film 2">
+        <div class="film-info">
+          <a href="film2.html" data-categories="Drame, Romance">
+            <div class="film-title">Film 2</div>
+            <div class="film-categories">(Drame, Romance)</div>
+          </a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="film-item">
+        <img src="img/FilmsImg/spiderman_no_way_home_poster.jpg" alt="Image Film 3">
+        <div class="film-info">
+          <a href="film3.html" data-categories="Comédie, Spiderman">
+            <div class="film-title">Film 3</div>
+            <div class="film-categories">(Comédie, Spiderman)</div>
+          </a>
+        </div>
+      </div>
+    </li>
+    <!-- Ajoutez d'autres titres de films avec les liens appropriés et les catégories -->
+  </ul>  
+  <h1>Marvel</h1>
+  <ul id="filmList">
+    <li>
+      <div class="film-item">
+        <img src="img/FilmsImg/spiderman_no_way_home_poster.jpg" alt="Image Film 1">
+        <div class="film-info">
+          <a href="SpiderFilm2021.html" data-categories="Action, Spiderman">
+            <div class="film-title">Spiderman : No Way Home</div>
+            <div class="film-categories">(Action, Spiderman)</div>
+          </a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="film-item">
+        <img src="img/FilmsImg/spiderman_no_way_home_poster.jpg" alt="Image Film 2">
+        <div class="film-info">
+          <a href="film2.html" data-categories="Drame, Romance">
+            <div class="film-title">Film 2</div>
+            <div class="film-categories">(Drame, Romance)</div>
+          </a>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="film-item">
+        <img src="img/FilmsImg/spiderman_no_way_home_poster.jpg" alt="Image Film 3">
+        <div class="film-info">
+          <a href="film3.html" data-categories="Comédie, Spiderman">
+            <div class="film-title">Film 3</div>
+            <div class="film-categories">(Comédie, Spiderman)</div>
+          </a>
+        </div>
+      </div>
+    </li>
+    <!-- Ajoutez d'autres titres de films avec les liens appropriés et les catégories -->
+  </ul>  
+  <script>
+    const searchInput = document.getElementById('searchInput');
+    const filmList = document.getElementById('filmList');
+
+    searchInput.addEventListener('input', function() {
+      const searchQuery = searchInput.value.toLowerCase();
+
+      Array.from(filmList.getElementsByTagName('li')).forEach(function(item) {
+        const filmTitle = item.textContent.toLowerCase();
+        const filmCategories = item.querySelector('a').getAttribute('data-categories').toLowerCase();
+
+        if (filmTitle.includes(searchQuery) || filmCategories.includes(searchQuery)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  </script>
+</body>
+</html>

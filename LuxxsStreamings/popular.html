@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Populaire</title>
+  <style>
+    /* Réinitialisation des styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Styles spécifiques au site */
+    body {
+      background-color: rgb(24, 24, 24);
+      color: rgb(255, 255, 255);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo img {
+        max-height: 40px;
+      margin-right: 10px;
+      width: 1000px 1000px;
+      height: 1000px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    nav {
+      background-color: rgb(24, 24, 24);
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+    .best-section {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .best-title {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .best-image {
+      max-width: 100%;
+      width: 100cm 100cm;
+      height: auto;
+    }
+    .film-item {
+      text-align: center;
+    }
+
+    #filmList {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    .film-item {
+      text-align: center;
+      margin: 10px;
+    }
+
+    .film-item img {
+      width: 200px;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .film-title {
+      font-weight: bold;
+    }
+
+    .film-categories {
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/DiversImg/LuxxsStreamingsLogo.png" alt="Logo">
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Popular</a></li>
+      <li><a href="index.html">Films/a></li>
+      <li><a href="#">Séries</a></li>
+    </ul>
+  </nav>
+  <div class="best-section">
+    <h2 class="best-title">BEST</h2>
+    <img class="best-image" src="img/FilmsImg/spiderman_no_way_home_poster.jpg" alt="Best Image">
+    <div class="film-info">
+        <a href="SpiderFilm2021.html" data-categories="Drame, Romance">
+          <div class="film-title">Spiderman : No Way Home</div>
+          <div class="film-categories">(Action, Spiderman)</div>
+        </a>
+      </div>
+    <h3 class="best-title">Spiderman : No Way Home</h3>
+  </div>
+  <div>
+    <h4 class="best-title">Most Popular :</h4>
+    <ul id="filmList">
+        <li>
+          <div class="film-item">
+            <img src="img/FilmsImg/spiderman_no_way_home_poster.jpg" alt="Image Film 1">
+            <div class="film-info">
+              <a href="SpiderFilm2021.html" data-categories="Action, Spiderman">
+                <div class="film-title">Spiderman: No Way Home</div>
+                <div class="film-categories">(Action, Spiderman)</div>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="film-item">
+            <img src="img/FilmsImg/spiderman_no_way_home_poster.jpg" alt="Image Film 2">
+            <div class="film-info">
+              <a href="film2.html" data-categories="Drame, Romance">
+                <div class="film-title">Film 2</div>
+                <div class="film-categories">(Drame, Romance)</div>
+              </a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="film-item">
+            <img src="img/FilmsImg/spiderman_no_way_home_poster.jpg" alt="Image Film 3">
+            <div class="film-info">
+              <a href="film3.html" data-categories="Comédie, Spiderman">
+                <div class="film-title">Film 3</div>
+                <div class="film-categories">(Comédie, Spiderman)</div>
+              </a>
+            </div>
+          </div>
+        </li>
+        <!-- Ajoutez d'autres titres de films avec les liens appropriés et les catégories -->
+      </ul>
+  </div>
+</body>
+</html>
+

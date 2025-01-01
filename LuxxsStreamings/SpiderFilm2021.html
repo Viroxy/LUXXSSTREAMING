@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spiderman : No Way Home | 2021 Film</title>
+  <style>
+    /* Réinitialisation des styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Styles spécifiques au site */
+    body {
+      background-color: rgb(24, 24, 24);
+      color: rgb(255, 255, 255);
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+    }
+
+    .logo img {
+      width: 200px;
+    }
+
+    .search-bar {
+      position: relative;
+    }
+
+    .search-bar input[type="text"] {
+      width: 200px;
+      padding: 5px;
+    }
+    nav {
+      background-color: rgb(24, 24, 24);
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    .movie-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .movie-image {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .movie-info {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .movie-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .movie-year {
+      font-size: 18px;
+      color: #888;
+    }
+
+    .movie-categories {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #888;
+    }
+
+    .movie-description {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #888;
+    }
+
+    .movie-video {
+      margin-top: 20px;
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+
+    .download-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #ff0000;
+      color: #fff;
+      padding: 5px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/DiversImg/LuxxsStreamingsLogo.png" alt="LSLogo">
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="popular.html">Popular</a></li>
+      <li><a href="index.html">Films</a></li>
+      <li><a href="#">Séries</a></li>
+    </ul>
+  </nav>
+  <div class="movie-container">
+    <img src="img/FilmsImg/spiderman_no_way_home_poster.jpg" alt="Spider-Man: No Way Home" class="movie-image">
+    <div class="movie-info">
+      <div class="movie-year">2021</div>
+      <div class="movie-title">Spider-Man: No Way Home</div>
+      <div class="movie-categories">Action, Aventure, Science-Fiction</div>
+      <div class="movie-description">Après les événements de "Spider-Man: Far From Home", Peter Parker doit faire face à de nouveaux défis lorsqu'il se retrouve dans un multivers en constante évolution.</div>
+    </div>
+    <video src="video/Films/LuxxsStreaming-SpidermanNoWayHome.mp4" controls class="movie-video"></video>
+  </div>
+
+  <script>
+    // Vous pouvez ajouter d'autres fonctionnalités JavaScript ici si nécessaire
+  </script>
+</body>
+</html>
